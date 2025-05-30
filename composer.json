@@ -1,0 +1,21 @@
+{
+    "name": "pet-and-garden/shop",
+    "description": "Pet & Garden Shop E-commerce Website",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8",
+        "stripe/stripe-php": "^10.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "includes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+} 
